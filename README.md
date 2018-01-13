@@ -1,3 +1,3 @@
-# Karren Wright Piano
+# Karen Wright Piano
 
-Webpage repo for Karren Wright.
+Webpage repo for Karen Wright piano site.
