@@ -1,0 +1,73 @@
+body {
+    margin: 0;
+    font-size: 62.5%;
+}
+
+.section {
+    padding-top: 10vh;
+}
+
+#header {
+    height: 100vh;
+    background-image: url("images/Karen_PSU_Piano-1291_edit.jpg");
+    background-position: center;
+    background-size: cover;
+
+}
+
+#header h1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    color:white;
+    font-size: 7em;
+}
+
+
+#bio {
+    padding-top: 10vh;
+    padding-left: 10vw;
+    padding-right: 10vw;
+}
+
+#bio p {
+    font-size: 5em;
+}
+
+
+#services {
+    display: flex;
+    flex-direction: column;
+    padding-right: 15vw;
+    padding-left: 15vw;
+}
+
+.service {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 40%;
+    flex: 0 0 40%;
+    text-align: center;
+}
+
+.service h2 {
+    font-size: 7em;
+}
+
+.service-title {
+
+}
+
+footer {
+    height: 40vh;
+    background-color: grey;
+}
+
+.copyright {
+    padding-top: 40vh;
+    display: inline-block;
+    text-align: center;
+    float: none !important;
+    width: 100%;
+}
