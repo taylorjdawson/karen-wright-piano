@@ -11,6 +11,14 @@ body {
     padding-top: 10vh;
 }
 
+.first-letter {
+    font-family: 'Alex Brush', cursive;
+}
+
+.following-letters {
+    font-family: 'Nunito', sans-serif;
+}
+
 #header {
     height: 100vh;
     /*background-image: url("images/Karen_PSU_Piano-1291_edit.jpg");*/
