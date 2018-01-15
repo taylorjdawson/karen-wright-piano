@@ -1,6 +1,10 @@
+html {
+    font-size: 75%; // 12px
+}
+
 body {
     margin: 0;
-    font-size: 62.5%;
+    font-size: 1rem; // 12px
 }
 
 .section {
@@ -12,7 +16,6 @@ body {
     /*background-image: url("images/Karen_PSU_Piano-1291_edit.jpg");*/
     /*background-position: center;*/
     /*background-size: cover;*/
-
 }
 
 #header-img {
@@ -23,6 +26,12 @@ body {
     position: relative;
     height: 75vh;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+@media only screen and (max-width: 320px) {
+    #header-img {
+        height: 60vh;
+    }
 }
 
 #header-icon {
@@ -48,9 +57,26 @@ body {
     padding-left: 10vw;
     padding-right: 10vw;
 }
+#bio-header {
+    background-color: black;
+    height: 7vh;
+    width: 75vw;
+    border-top-right-radius: 5px;
+    color: white;
+    border-bottom-right-radius: 5px;
+
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    display: table-cell;
+    vertical-align: middle;
+}
+
+#bio-header h2 {
+    margin: 0;
+}
+
 
 #bio p {
-    font-size: 5em;
+    font-size: 1rem;
 }
 
 #services {
@@ -68,7 +94,7 @@ body {
 }
 
 .service h2 {
-    font-size: 7em;
+    font-size: 2rem;
 }
 
 .service-title {
