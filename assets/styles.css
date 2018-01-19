@@ -79,6 +79,7 @@ body {
 }
 
 #bio-header h2 {
+    display: inline;
     margin: 0;
 }
 
