@@ -48,6 +48,7 @@ body {
     display: block;
     position: relative;
     margin-right: auto;
+    width: 25vw;
 }
 
 #header h1 {
@@ -65,26 +66,24 @@ body {
     padding-left: 10vw;
     padding-right: 10vw;
 }
-#bio-header {
-    background-color: black;
-    height: 7vh;
-    width: 75vw;
-    border-top-right-radius: 5px;
-    color: white;
-    border-bottom-right-radius: 5px;
 
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    display: table-cell;
-    vertical-align: middle;
+#bio h2 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: lighter;
+    font-variant-caps: petite-caps;
 }
 
-#bio-header h2 {
-    margin: 0;
+#bio hr {
+    border: solid navajowhite;
+    width: 50vw;
+    margin-left: 0;
 }
-
 
 #bio p {
     font-size: 1rem;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: lighter;
+
 }
 
 #services {
@@ -101,12 +100,22 @@ body {
     text-align: center;
 }
 
-.service h2 {
-    font-size: 2rem;
+.service p {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: lighter;
+    text-align: left;
 }
 
-.service-title {
+.service hr {
+    border: solid navajowhite;
+    width: 50vw;
+}
 
+.service-title h2 {
+    font-size: 2rem;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: lighter;
+    font-variant-caps: petite-caps;
 }
 
 footer {
