@@ -62,19 +62,21 @@ body {
 }
 
 #bio {
-    padding-top: 10vh;
-    padding-left: 10vw;
-    padding-right: 10vw;
+    padding: 10vh 10vw;
+    background-color: antiquewhite;
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 96%, 0 100%);
+    clip-path: polygon(0 0, 100% 0, 100% 96%, 0 100%);
 }
 
 #bio h2 {
+    font-size: 2rem;
     font-family: 'Open Sans', sans-serif;
     font-weight: lighter;
     font-variant-caps: petite-caps;
 }
 
 #bio hr {
-    border: solid navajowhite;
+    border: 1px solid black;
     width: 50vw;
     margin-left: 0;
 }
@@ -107,7 +109,7 @@ body {
 }
 
 .service hr {
-    border: solid navajowhite;
+    border: 1px solid black;
     width: 50vw;
 }
 
